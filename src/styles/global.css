@@ -1,0 +1,76 @@
+/* src/styles/global.css */
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    word-spacing: 0;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+dl {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-color: #FFFFFF;
+}
+
+#motto {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: left;
+}
+
+a {
+    color: #4FC3F7;
+}
