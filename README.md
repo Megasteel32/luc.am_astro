@@ -1,54 +1,40 @@
-# Astro Starter Kit: Basics
+# Hello!
+## Welcome to the repository for my personal website
 
-```sh
-npm create astro@latest -- --template basics
-```
+This is the source for my little corner on the internet,
+I strive for simplicity and easy of use (and totally not cause
+I don't know shit about web development). The goal is to have everything
+written in Markdown, then later converted to plain HTML using a static site generator.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+I decided to use Astro for this, as it doesn't lock me into any one framework
+(originally I was going to go with Hugo or the like) and it doesn't lock me into
+any one format for my pages. Originally this website was hand written in HTML
+and proudly used no CSS (again because I didn't know how to), and a secondary goal
+was retaining the exact barebones look. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+My personal website is really a digital extension of myself. I'm not old enough
+to have used MySpace, but I think it really captures the zeitgeist of the early internet
+shortly before the golden age and then corporatization. 
+Some of this magic has been recaptured, but either requires using a shitty WYSIWYG
+website builder or extensive knowledge in web development. See [Rhyme Kickflip's site](https://www.shittykickflips.dog/) 
+for a great example on both website design/implementation (there's like 0 shitty javascript)
+and ideology. Maybe one day I'll implement CSS like she did, who knows. 
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+So yeah, the reason this website is good is that it's mine. And that's why yours is too!
+Increasingly our only online presence (something which is practically required today)
+is limited to centrally controlled media platforms. Sure there are decentralized options,
+but even as someone who *could* use these options they're not 
+mainstream enough for wide adoption. And frankly, the best kind of decentralized social media
+is going outside and talking to people.
 
-## 🚀 Project Structure
+The internet should be a place to host your thoughts and ideas,
+and to meet new people. It shouldn't be *the* place to do everything,
+importantly being around people. We need physical spaces, and this drive to 
+produce "content" and have all interaction online limits that. I'm part of 
+the first generation to grow up with the internet in our pockets, and I've seen the 
+damage social media has done to my peers and myself. Our parents were right, it was that damn phone.
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+With my personal website I hope to be part of a growing movement to change that. There are no ads,
+no intentional tracking (I have analytics enabled but that's all on cloudflares end). As usual, all code
+is open source (according to my definition that is, for non-commercial use). There's no AI generated
+text or image content. So yeah, I hope you enjoy your stay, and maybe you'll be inspired to make your own. Peace.
