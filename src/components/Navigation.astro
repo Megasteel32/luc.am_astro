@@ -1,11 +1,60 @@
+---
+const pages = await Astro.glob('../pages/*.markdown');
+let navItems = pages
+  .map(page => {
+    if (!page.url) return null; // Skip pages without a URL
+
+    const pathSegments = page.file?.split('/') || [];
+    const fileName = pathSegments[pathSegments.length - 1] || '';
+    const defaultTitle = fileName.replace('.markdown', '');
+
+    return {
+      href: page.url,
+      title: page.frontmatter.title || defaultTitle,
+      order: page.frontmatter.order || Infinity // Use Infinity for items without order
+    };
+  })
+  .filter((item): item is { href: string; title: string; order: number } => item !== null)
+  .sort((a, b) => a.order - b.order);
+
+// Always include a home link
+const homeLink = navItems.find(item => item.href === '/' || item.href === '/index' || item.href === '/index.html');
+if (!homeLink) {
+  navItems.unshift({
+    href: '/',
+    title: 'Home',
+    order: -1 // Ensure it's always first
+  });
+}
+---
+
 <nav>
-    <table>
-        <tr>
-            <td><a style="color: #4FC3F7" href="/" tabindex="0"><h1>Home</h1></a></td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td><a style="color: #4FC3F7" href="/resume" tabindex="0"><h1>Resume</h1></a></td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td><a style="color: #4FC3F7" href="/contact" tabindex="0"><h1>Contact</h1></a></td>
-        </tr>
-    </table>
+  <ul>
+    {navItems.map((item) => (
+      <li>
+        <a href={item.href}>
+          <h1>{item.title}</h1>
+        </a>
+      </li>
+    ))}
+  </ul>
 </nav>
+
+<style>
+  nav ul {
+    display: table;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: table-cell;
+    padding: 0 1rem;
+  }
+  nav a {
+    color: #4FC3F7;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
