@@ -27,7 +27,7 @@ To perform the job at hand utilizing my skills to the fullest of my abilities wh
 - **Fat Shack – Wired and Wireless Networks Emergency Support and Reconfiguration (September 2021)**
 
 ## Education
-- **Georgia State University – B.S. in Computer Science (In Progress)**
+- **Georgia State University – B.S. in Computer Science (Expected Graduation Spring 2025)**
 - **Riverwood International Charter School, Class of 2020**
   - IB Diploma (Higher Level Physics, Math, and Literature)
 
