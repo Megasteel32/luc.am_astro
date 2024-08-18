@@ -1,39 +1,86 @@
 ---
-const pages = await Astro.glob('../pages/*.markdown');
-let navItems = pages
-  .map(page => {
-    if (!page.url) return null; // Skip pages without a URL
+interface FrontmatterPage {
+  url: string;
+  frontmatter: Record<string, unknown>;
+}
 
-    const pathSegments = page.file?.split('/') || [];
-    const fileName = pathSegments[pathSegments.length - 1] || '';
-    const defaultTitle = fileName.replace('.markdown', '');
+interface AstroPage {
+  url: string;
+  getHeading: () => Promise<{ text: string }>;
+}
 
-    return {
-      href: page.url,
-      title: page.frontmatter.title || defaultTitle,
-      order: page.frontmatter.order || Infinity // Use Infinity for items without order
-    };
-  })
+const astroPages = await Astro.glob<AstroPage>('../pages/*.astro');
+const markdownPages = await Astro.glob<FrontmatterPage>('../pages/*.markdown');
+const pages = [...astroPages, ...markdownPages];
+
+const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+let navItems = await Promise.all(pages.map(async (page) => {
+  if (!page.url) return null; // Skip pages without a URL
+
+  const pathSegments = page.url.split('/');
+  const fileName = pathSegments[pathSegments.length - 1] || '';
+  const defaultTitle = fileName.replace(/\.(astro|markdown|html)$/, '');
+
+  let title: string;
+  let order: number;
+
+  if ('frontmatter' in page) {
+    // This is a Markdown page
+    const frontmatter = page.frontmatter as { title?: string; order?: number };
+    title = capitalize(frontmatter.title || defaultTitle);
+    order = typeof frontmatter.order === 'number' ? frontmatter.order : Infinity;
+  } else if ('getHeading' in page) {
+    // This is an Astro page
+    const heading = await page.getHeading();
+    title = capitalize(heading.text || defaultTitle);
+    order = Infinity; // Astro pages don't have an order property in this context
+  } else {
+    // This is neither a Markdown nor an Astro page (shouldn't happen, but just in case)
+    title = capitalize(defaultTitle);
+    order = Infinity;
+  }
+
+  // Set Projects to order 2
+  if (title.toLowerCase() === 'projects') {
+    order = 2;
+  }
+
+  return {
+    href: page.url,
+    title,
+    order
+  };
+}));
+
+navItems = navItems
   .filter((item): item is { href: string; title: string; order: number } => item !== null)
   .sort((a, b) => a.order - b.order);
 
 // Always include a home link
-const homeLink = navItems.find(item => item.href === '/' || item.href === '/index' || item.href === '/index.html');
+const homeLink = navItems.find(item =>
+  item?.href === '/' || item?.href === '/index' || item?.href === '/index.html'
+);
 if (!homeLink) {
   navItems.unshift({
     href: '/',
     title: 'Home',
-    order: -1 // Ensure it's always first
+    order: 1 // Ensure it's always first
   });
 }
+
+// Remove any duplicate entries (in case of index.astro and index.markdown, for example)
+navItems = navItems.filter((item, index, self) =>
+  index === self.findIndex((t) => t?.href === item?.href)
+);
 ---
 
 <nav>
   <ul>
     {navItems.map((item) => (
       <li>
-        <a href={item.href}>
-          <h1>{item.title}</h1>
+        <a href={item?.href || '#'}>
+          <h1>{item?.title || 'Untitled'}</h1>
         </a>
       </li>
     ))}

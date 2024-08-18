@@ -2,7 +2,7 @@
 layout: ../layouts/Layout.astro
 title: Resume
 description: Luca Maddaleni's Resume
-order: 3
+order: 4
 ---
 
 # Luca Maddaleni

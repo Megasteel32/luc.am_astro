@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Update the glob pattern to match .markdown files
+const projectPages = await Astro.glob('./projects/*.markdown');
+
+const sortedProjects = projectPages
+  .map(page => ({
+    url: page.url,
+    title: page.frontmatter.title || page.file.split('/').pop()?.replace('.markdown', '') || 'Untitled',
+    order: page.frontmatter.order || Infinity
+  }))
+  .sort((a, b) => a.order - b.order);
+
+---
+
+<Layout title="Projects" description="My projects">
+  {sortedProjects.length > 0 ? (
+    <ul>
+      {sortedProjects.map(project => (
+        <li>
+          <a href={project.url}>{project.title}</a>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No projects found. Make sure you have .markdown files in the projects directory.</p>
+  )}
+</Layout>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  a {
+    color: #4FC3F7;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

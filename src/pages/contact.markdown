@@ -2,7 +2,7 @@
 layout: ../layouts/Layout.astro
 title: Contact
 description: Luca Maddaleni's Site, Contact information
-order: 4
+order: 5
 ---
 
 # Contact Info:
