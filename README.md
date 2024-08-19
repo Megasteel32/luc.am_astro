@@ -1,5 +1,5 @@
 # Hello!
-## Welcome to the repository for my personal website
+## Welcome to the repository for my personal website: [luc.am](https://luc.am)
 
 This is the source for my little corner on the internet,
 I strive for simplicity and easy of use (and totally not cause
@@ -29,7 +29,7 @@ is going outside and talking to people.
 
 The internet should be a place to host your thoughts and ideas,
 and to meet new people. It shouldn't be *the* place to do everything,
-importantly being around people. We need physical spaces, and this drive to 
+most importantly it shouldn't be *the* way to be around people. We need physical spaces, and this drive to 
 produce "content" and have all interaction online limits that. I'm part of 
 the first generation to grow up with the internet in our pockets, and I've seen the 
 damage social media has done to my peers and myself. Our parents were right, it was that damn phone.
