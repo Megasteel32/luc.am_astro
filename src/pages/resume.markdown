@@ -33,6 +33,7 @@ To perform the job at hand utilizing my skills to the fullest of my abilities wh
 
 ## Technical Skills and Certifications
 - Helpdesk and Networking
+- Python, some Java and C
 - Linux Configuration and Virtualization
 - Photoshop and AfterEffects
 - 3D Modeling (SolidWorks)
