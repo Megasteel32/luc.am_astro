@@ -6,7 +6,7 @@ order: 4
 ---
 
 # Luca Maddaleni
-<p><a href="mailto:lucagmaddaleni@gmail.com"><em>lucagmaddaleni@gmail.com</em></a></p>
+<p><a href="mailto:luca@luc.am"><em>luca@luc.am</em></a></p>
 
 ## Objective:
 To perform the job at hand utilizing my skills to the fullest of my abilities while maintaining a professional and positive attitude, as well as a willingness to learn, adapt, and improve.
