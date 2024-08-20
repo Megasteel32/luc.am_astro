@@ -11,6 +11,11 @@ order: 4
 ## Objective:
 To perform the job at hand utilizing my skills to the fullest of my abilities while maintaining a professional and positive attitude, as well as a willingness to learn, adapt, and improve.
 
+## Education
+- **Georgia State University – B.S. in Computer Science (Expected Graduation Spring 2025)**
+- **Riverwood International Charter School, Class of 2020**
+  - IB Diploma (Higher Level Physics, Math, and Literature)
+
 ## Work Experience
 - **Student Assistant - EXLAB Makerspace (March 2023 – Present)**
   - Guided students through the user of the makerspace including trainings, maintained cleanliness in the space, ensured tools and equipment were properly used and stored. Developed improvements to the space including interactive lighting.
@@ -25,11 +30,6 @@ To perform the job at hand utilizing my skills to the fullest of my abilities wh
 
 ## Clients
 - **Fat Shack – Wired and Wireless Networks Emergency Support and Reconfiguration (September 2021)**
-
-## Education
-- **Georgia State University – B.S. in Computer Science (Expected Graduation Spring 2025)**
-- **Riverwood International Charter School, Class of 2020**
-  - IB Diploma (Higher Level Physics, Math, and Literature)
 
 ## Technical Skills and Certifications
 - Helpdesk and Networking
