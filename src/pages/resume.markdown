@@ -22,12 +22,12 @@ A.S. Computer Science August 2024
 
 ### Technical Skills
 
-**Languages**: Python, Java, C/C++, Rust\
-**Systems**: GNU/Linux, Virtualization, Docker, AWS, Digital Ocean,
+*Languages*: Python, Java, C/C++, Rust\
+*Systems*: GNU/Linux, Virtualization, Docker, AWS, Digital Ocean,
 GitHub CI/CD\
-**Skills**: Networking, Helpdesk, SolidWorks, Photoshop/After Effects,
+*Skills*: Networking, Helpdesk, SolidWorks, Photoshop/After Effects,
 Microsoft Office\
-**Certifications**: Coursera CompTIA A+, Forklift, AED/First Aid
+*Certifications*: Coursera CompTIA A+, Forklift, AED/First Aid
 
 ### **Experience**
 
