@@ -4,7 +4,7 @@ title: Resume
 description: Luca Maddaleni's Resume
 order: 4
 ---
-[PDF Format](href="/public/luca_maddaleni_resume.pdf")
+[PDF Format](/luca_maddaleni_resume.pdf)
 
 # **LUCA G. MADDALENI**
 
