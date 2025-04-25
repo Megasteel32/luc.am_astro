@@ -7,11 +7,11 @@ order: 4
 
 # **LUCA G. MADDALENI**
 
-Atlanta, GA \| 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
+Atlanta, GA | 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
 
 **Troubleshooting | Project Management | Networking | Development**
 
-**Education**
+## **Education**
 
 B.S. Computer Science Expected May 2025 
 
