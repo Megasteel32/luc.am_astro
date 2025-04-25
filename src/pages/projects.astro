@@ -15,17 +15,18 @@ const sortedProjects = projectPages
 ---
 
 <Layout title="Projects" description="My projects">
-  {sortedProjects.length > 0 ? (
+    <p>
+        This page is in no particular order, just a smattering of things I've built, created, or otherwise worked on.
+    </p>
+
     <ul>
-      {sortedProjects.map(project => (
-        <li>
-          <a href={project.url}>{project.title}</a>
-        </li>
-      ))}
+        {sortedProjects.map(project => (
+                <li>
+                    <a href={project.url}>{project.title}</a>
+                </li>
+        )   )   }
     </ul>
-  ) : (
-    <p>No projects found. Make sure you have .markdown files in the projects directory.</p>
-  )}
+
 </Layout>
 
 <style>
