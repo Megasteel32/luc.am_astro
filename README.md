@@ -16,7 +16,7 @@ My personal website is really a digital extension of myself. I'm not old enough
 to have used MySpace, but I think it really captures the zeitgeist of the early internet
 shortly before the golden age and then corporatization. 
 Some of this magic has been recaptured, but either requires using a shitty WYSIWYG
-website builder or extensive knowledge in web development. See [Rhyme Kickflip's site](https://www.shittykickflips.dog/) 
+website builder or extensive knowledge in web development. See [Rhyme Kickflip's site](https://www.shittykickflips.moe/) 
 for a great example on both website design/implementation (there's like 0 shitty javascript)
 and ideology. Maybe one day I'll implement CSS like she did, who knows. 
 
