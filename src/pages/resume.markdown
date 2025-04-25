@@ -5,10 +5,11 @@ description: Luca Maddaleni's Resume
 order: 4
 ---
 
-## ****LUCA G. MADDALENI****
- Atlanta, GA \| 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
+# ****LUCA G. MADDALENI****
 
-****Troubleshooting | Project Management | Networking | Development****
+Atlanta, GA \| 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
+
+**Troubleshooting | Project Management | Networking | Development**
 
 ### Education
 
@@ -20,7 +21,7 @@ A.S. Computer Science August 2024
 
 **Perimeter College, Dunwoody, GA**
 
-### Technical Skills
+## Technical Skills
 
 *Languages*: Python, Java, C/C++, Rust\
 *Systems*: GNU/Linux, Virtualization, Docker, AWS, Digital Ocean,
@@ -29,7 +30,7 @@ GitHub CI/CD\
 Microsoft Office\
 *Certifications*: Coursera CompTIA A+, Forklift, AED/First Aid
 
-### **Experience**
+## **Experience**
 
 **EXLAB Makerspace @ GSU (Student Assistant) | 2023 to Present**
 
@@ -46,7 +47,7 @@ Microsoft Office\
 
 -   Managed orders, inventory, and deliveries for automotive parts.
 
-### **Projects**
+## **Projects**
 
 **Home Lab**
 
@@ -58,7 +59,7 @@ Microsoft Office\
 -   Emergency troubleshooting/reconfiguration of wired/wireless networks
     for a restaurant.
 
-### Awards
+## Awards
 
 **FBLA National Winner**: Help Desk (2018), Network Design (2019),
 Management Information Systems (2020)
