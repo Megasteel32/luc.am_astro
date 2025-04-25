@@ -5,44 +5,63 @@ description: Luca Maddaleni's Resume
 order: 4
 ---
 
-# Luca Maddaleni
-<p><a href="mailto:luca@luc.am"><em>luca@luc.am</em></a></p>
+## ****LUCA G. MADDALENI****
+ Atlanta, GA \| 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
 
-## Objective:
-To perform the job at hand utilizing my skills to the fullest of my abilities while maintaining a professional and positive attitude, as well as a willingness to learn, adapt, and improve.
+****Troubleshooting | Project Management | Networking | Development****
 
-## Education
-- **Georgia State University – B.S. in Computer Science (Expected Graduation Spring 2025)**
-- **Riverwood International Charter School, Class of 2020**
-  - IB Diploma (Higher Level Physics, Math, and Literature)
+### Education
 
-## Work Experience
-- **Student Assistant - EXLAB Makerspace (March 2023 – Present)**
-  - Guided students through the user of the makerspace including trainings, maintained cleanliness in the space, ensured tools and equipment were properly used and stored. Developed improvements to the space including interactive lighting.
-- **Parts Counter – NAPA Auto Parts (January 2022 – August 2022)**
-  - Assisted retail and commercial customers with selecting parts, chemicals/additives, accessories, and assisted with the limited installation of components. Responsible for managing stocking of inventory, arranging new planograms and coordinating with management to ensure success of monthly sales.
-- **Warehouse 3<sup>rd</sup> Shift – Floor &amp; Decor (May 2021 – July 2021)**
-  - Responsible for loading customers, picking work orders, operating forklifts/electric pallet jacks with safety remaining a priority.
-- **Manager – Sweetwater Pool Management (May 2020 – August 2020)**
-  - Coordinate with guards at assigned pool to uphold previous standards of exceptional service, cleanliness, and safety, execute plan for COVID-19 sanitization, continue to represent the company with a positive attitude and team-oriented mindset.
-- **Internship – PaliProto 3D Printing (January 2019 – May 2019)**
-  - Design and adapt 3D models in Solidworks, set-up, initiate, and clean 3D prints, obtained knowledge in several printers, techniques and materials for several applications, ensured all work orders were completed to specification for clients ranging from hobbyists to high profile businesses.
+B.S. Computer Science Expected May 2025 
 
-## Clients
-- **Fat Shack – Wired and Wireless Networks Emergency Support and Reconfiguration (September 2021)**
+**Georgia State University, Atlanta, GA**
 
-## Technical Skills and Certifications
-- Helpdesk and Networking
-- Python, some Java and C
-- Linux Configuration and Virtualization
-- Photoshop and AfterEffects
-- 3D Modeling (SolidWorks)
-- CompTIA A+
-- Microsoft Office Programs
-- Lifeguard/AED/First Aid
-- Forklift Certified
+A.S. Computer Science August 2024 
 
-## Achievements
-- Eagle Scout
-- National Merit Scholarship Commended
-- Future Business Leaders of America – 3 National Awards, 6 State Awards
+**Perimeter College, Dunwoody, GA**
+
+### Technical Skills
+
+**Languages**: Python, Java, C/C++, Rust\
+**Systems**: GNU/Linux, Virtualization, Docker, AWS, Digital Ocean,
+GitHub CI/CD\
+**Skills**: Networking, Helpdesk, SolidWorks, Photoshop/After Effects,
+Microsoft Office\
+**Certifications**: Coursera CompTIA A+, Forklift, AED/First Aid
+
+### **Experience**
+
+**EXLAB Makerspace @ GSU (Student Assistant) | 2023 to Present**
+
+-   Train students on Maker Space equipment (3D printers, CNC router,
+    Laser cutter).
+-   Troubleshoot projects, maintain machinery, and optimize workflows.
+
+**Kateva (IT Support Specialist) | 2023 to Present**
+
+-   Install/config security cameras and TV systems, integrating with
+    network infrastructure.
+
+**NAPA Auto Parts (Parts Associate) | 2022**
+
+-   Managed orders, inventory, and deliveries for automotive parts.
+
+### **Projects**
+
+**Home Lab**
+
+-   Proxmox cluster, OPNsense router, NAS; hosted VMs, game servers, and
+    automation projects.
+
+**Fat Shack Restaurant Network Repair**
+
+-   Emergency troubleshooting/reconfiguration of wired/wireless networks
+    for a restaurant.
+
+### Awards
+
+**FBLA National Winner**: Help Desk (2018), Network Design (2019),
+Management Information Systems (2020)
+
+**FBLA State Winner**: Cybersecurity (2019), Introduction to IT
+(2017)
