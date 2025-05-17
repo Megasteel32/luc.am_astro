@@ -14,7 +14,7 @@ Atlanta, GA | 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/i
 
 ## **Education**
 
-B.S. Computer Science Expected May 2025 
+B.S. Computer Science *Cum Laude* May 2025 
 
 **Georgia State University, Atlanta, GA**
 
