@@ -6,13 +6,13 @@ order: 4
 ---
 [PDF Format](/luca_maddaleni_resume_nophone.pdf)
 
-## **LUCA G. MADDALENI**
+# **LUCA G. MADDALENI**
 
 Atlanta, GA | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
 
 **Troubleshooting | Endpoint Management | Networking | Development**
 
-### **Education**
+## **Education**
 
 **B.S. Computer Science *Cum Laude* May 2025**
 
@@ -22,7 +22,7 @@ Georgia State University, Atlanta, GA
 
 Perimeter College, Dunwoody, GA
 
-### **Technical Skills**
+## **Technical Skills**
 
 *Systems*: Active Directory, Intune/Autopilot, Entra/M365, MTR/Zoom Rooms, NinjaOne,
 Apple Business, Azure/Tierpoint, Verkada, Freshservice, Docusign, Smartsheet, Mobility, Proxmox\
@@ -51,7 +51,7 @@ Apple Business, Azure/Tierpoint, Verkada, Freshservice, Docusign, Smartsheet, Mo
 
 -   Managed orders, inventory, and deliveries for automotive parts
 
-### **Projects**
+## **Projects**
 
 **Home Lab**
 
@@ -63,7 +63,7 @@ Apple Business, Azure/Tierpoint, Verkada, Freshservice, Docusign, Smartsheet, Mo
 -   Emergency troubleshooting/reconfiguration of wired/wireless networks
     for a restaurant.
 
-### **Awards**
+## **Awards**
 
 **Eagle Scout**
 
