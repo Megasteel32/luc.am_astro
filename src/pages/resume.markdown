@@ -4,51 +4,54 @@ title: Resume
 description: Luca Maddaleni's Resume
 order: 4
 ---
-[PDF Format](/luca_maddaleni_resume.pdf)
+[PDF Format](/luca_maddaleni_resume_nophone.pdf)
 
-# **LUCA G. MADDALENI**
+## **LUCA G. MADDALENI**
 
-Atlanta, GA | 678-612-8806 | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
+Atlanta, GA | [luca@luc.am](mailto:luca@luc.am) | [linkedin.com/in/lucamaddaleni](https://www.linkedin.com/in/lucamaddaleni/)
 
-**Troubleshooting | Project Management | Networking | Development**
+**Troubleshooting | Endpoint Management | Networking | Development**
 
-## **Education**
+### **Education**
 
-B.S. Computer Science *Cum Laude* May 2025 
+**B.S. Computer Science *Cum Laude* May 2025**
 
-**Georgia State University, Atlanta, GA**
+Georgia State University, Atlanta, GA
 
-A.S. Computer Science August 2024 
+**A.S. Computer Science August 2024**
 
-**Perimeter College, Dunwoody, GA**
+Perimeter College, Dunwoody, GA
 
-**Technical Skills**
+### **Technical Skills**
 
-*Languages*: Python, Java, C/C++, Rust\
-*Systems*: GNU/Linux, Virtualization, Docker, AWS, Digital Ocean,
-GitHub CI/CD\
-*Skills*: Networking, Helpdesk, SolidWorks, Photoshop/After Effects,
-Microsoft Office\
-*Certifications*: Coursera CompTIA A+, Forklift, AED/First Aid
+*Systems*: Active Directory, Intune/Autopilot, Entra/M365, MTR/Zoom Rooms, NinjaOne,
+Apple Business, Azure/Tierpoint, Verkada, Freshservice, Docusign, Smartsheet, Mobility, Proxmox\
+*Skills*: Executive Helpdesk, Networking, Endpoint Management (UEM/MDM), Audio/Video, Microsoft Office, Adobe\
+*Languages*: Powershell, Python, Java, C/C++, Rust\
+*Certifications*: Coursera, CompTIA A+, Forklift, AED/First Aid
 
-**Experience**
+### **Experience**
 
-**EXLAB Makerspace @ GSU (Student Assistant) | 2023 to Present**
+**Artera Services – IT Support Specialist | 2025 – Present**
 
--   Train students on Maker Space equipment (3D printers, CNC router,
-    Laser cutter).
--   Troubleshoot projects, maintain machinery, and optimize workflows.
+- Provide white-glove deskside service to Artera HQ, particularly the executive suite 
+- Automate and manage >10,000 endpoints (deployment & existing) with Intune and NinjaOne 
+- Responsible for Docusign, Zoom/Teams meeting rooms, Artera device deployments 
+- Assist with vendor evaluation, physical access, process development, and cross operating company collaboration 
+- Helped deploy and support South Gas and Union Gas divisions’ HeavyJob Field tool rollout
+
+**EXLAB Makerspace @ GSU (Student Assistant) | 2023 – 2025**
+- Trained students on Maker Space equipment (3D printers, CNC router, Laser cutter)
 
 **Kateva (IT Support Specialist) | 2023 to Present**
 
--   Install/config security cameras and TV systems, integrating with
-    network infrastructure.
+-   Installed/configured security cameras and TV systems, integrating with network infrastructure
 
 **NAPA Auto Parts (Parts Associate) | 2022**
 
--   Managed orders, inventory, and deliveries for automotive parts.
+-   Managed orders, inventory, and deliveries for automotive parts
 
-**Projects**
+### **Projects**
 
 **Home Lab**
 
@@ -60,7 +63,9 @@ Microsoft Office\
 -   Emergency troubleshooting/reconfiguration of wired/wireless networks
     for a restaurant.
 
-**Awards**
+### **Awards**
+
+**Eagle Scout**
 
 **FBLA National Winner**: Help Desk (2018), Network Design (2019),
 Management Information Systems (2020)
